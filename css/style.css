@@ -66,6 +66,7 @@ button {
   border: 1px solid green;
   color: white;
   margin: 0 5px;
+  transition: all ease 0.5s;
   cursor: pointer;
 }
 .wrapper {
@@ -90,4 +91,7 @@ button {
 img {
   height: 350px;
   width: 600px;
+}
+button:hover {
+  opacity: 0.8;
 }
