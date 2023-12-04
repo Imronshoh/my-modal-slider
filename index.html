@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="modal">
+      <div class="wrapper">
+        <ul class="slider">
+          <li class="slider__item">
+            <img
+              src="https://www.musclecarszone.com/wp-content/uploads/2015/12/Mercedes-AMG-SLC-TN.jpg"
+              alt=""
+            />
+          </li>
+          <li class="slider__item">
+            <img
+              src="https://www.7-forum.com/news/2020/bmw_5er_g30_lci/540i_p90389053-c.jpg"
+              alt=""
+            />
+          </li>
+          <li class="slider__item">
+            <img
+              src="https://i.pinimg.com/originals/c2/a5/54/c2a55461c8a4b2ed77786a9e3d5f78a0.jpg"
+              alt=""
+            />
+          </li>
+          <li class="slider__item">
+            <img
+              src="https://borodao.ru/wp-content/uploads/2017/09/10a1a22f015808f22c7a92346713adb6.jpg"
+              alt=""
+            />
+          </li>
+          <li class="slider__item">
+            <img
+              src="https://frankfurt.apollo.olxcdn.com/v1/files/ixovkq4ninjn1-UZ/image;s=600x0;q=50"
+              alt=""
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="modal__footer">
+        <button onclick="fnPrevious()">Previous</button>
+        <button onclick="closeModal()">Close</button>
+        <button onclick="fnNext()">Next</button>
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 300px">
+      <button onclick="openModal()">Open Modal</button>
+    </div>
+    <div onclick="closeModal()" class="modal__shadow"></div>
+  </body>
+  <script src="js/main.js"></script>
+</html>
