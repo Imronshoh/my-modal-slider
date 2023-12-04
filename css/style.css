@@ -66,6 +66,7 @@ button {
   border: 1px solid green;
   color: white;
   margin: 0 5px;
+  cursor: pointer;
 }
 .wrapper {
   width: 600px;
